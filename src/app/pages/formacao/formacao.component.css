@@ -1,0 +1,17 @@
+.container {
+  max-width: 874px;
+}
+
+.descricao_formacao p {
+  max-width: 731px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  color: var(--color2);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height-container);
+}
+
+.cursos h1 {
+  margin-bottom: 0px;
+}
+
