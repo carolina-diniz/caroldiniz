@@ -1,0 +1,31 @@
+.container {
+  background-color: #3E3A54;
+  border-radius: 10px;
+  width: 265px;
+  padding: 24px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 28px;
+  color: var(--color1);
+}
+
+img {
+  display: block;
+  width: 265px;
+  height: 163px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+a {
+  color: var(--color2);
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 28px;
+}
