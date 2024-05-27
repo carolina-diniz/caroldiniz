@@ -1,0 +1,37 @@
+.container {
+  max-width: 874px;
+}
+
+.list_social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.social img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  width: 206px;
+  height: 47px;
+  margin: 0 auto;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 64px;
+  color: var(--color3);
+  background-color: var(--color1);
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: black;
+  background-color: var(--color5);
+}
