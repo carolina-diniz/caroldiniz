@@ -53,6 +53,14 @@ li a:hover {
   display: block;
   height: 73px;
   width: 100%;
+}
+
+.header_bar2 {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  height: 73px;
+  width: 100%;
   background-color: var(--color4);
 }
 
