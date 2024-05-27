@@ -1,0 +1,11 @@
+.container {
+  background-color: var(--color3);
+  max-width: 1100px;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

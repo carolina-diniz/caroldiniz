@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Portifólio</h1>
+  <div class="cards">
+    <div *ngFor="let data of portifolioData">
+      <app-card-portifolio
+        src="{{ data.src }}"
+        title="{{ data.title }}"
+        imgSrc="{{ data.imgSrc }}"
+        description="{{ data.description }}"
+      ></app-card-portifolio>
+    </div>
+  </div>
+</div>
