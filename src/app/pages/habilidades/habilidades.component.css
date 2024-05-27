@@ -1,5 +1,6 @@
 .container {
   max-width: 874px;
+  min-height: 419px;
 }
 
 .skills {

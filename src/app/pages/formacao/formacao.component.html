@@ -15,17 +15,13 @@
   </div>
   <div class="cursos">
     <h1>Cursos</h1>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
-    <app-cursos></app-cursos>
+    <div *ngFor="let curso of cursos">
+      <app-cursos
+        titulo="{{ curso.titulo }}"
+        conclusao="{{ curso.conclusao }}"
+        descricao="{{ curso.descricao }}"
+        src="{{ curso.src }}"
+      ></app-cursos>
+    </div>
   </div>
 </div>
