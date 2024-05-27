@@ -64,8 +64,19 @@ export class HabilidadesComponent {
     },
   ];
 
+  isHover: boolean = false;
+
   selectSkill(title: string, description: string) {
     this.title = title;
     this.description = description;
+    this.mouseOver()
+  }
+
+  mouseOver() {
+    this.isHover = true;
+  }
+
+  mouseOut() {
+    this.isHover = false;
   }
 }

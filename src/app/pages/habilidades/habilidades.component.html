@@ -3,9 +3,9 @@
   <h2>{{ title }}</h2>
   <div class="skills">
     <div class="skill" *ngFor="let skill of skills">
-      <a (click)="selectSkill(skill.title, skill.description)">
-        <img src="{{ skill.src }}" alt="" />
-      </a>
+      <div  [ngClass]="(title == skill.title) && !isHover ? 'selected': ''" >
+        <img src="{{ skill.src }}" alt="" (mouseover)="selectSkill(skill.title, skill.description)" (mouseout)="mouseOut()">
+      </div>
     </div>
   </div>
   <div>
