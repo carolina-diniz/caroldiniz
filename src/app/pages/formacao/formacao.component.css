@@ -1,5 +1,6 @@
 .container {
   max-width: 874px;
+  margin-bottom: 64px;
 }
 
 .descricao_formacao p {
