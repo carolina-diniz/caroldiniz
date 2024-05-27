@@ -1,0 +1,20 @@
+.container {
+  max-width: 874px;
+}
+
+p {
+  margin: 0 64px;
+  margin-bottom: 18px;
+  color: var(--color2);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height-container);
+}
+
+a {
+  color: var(--color1);
+}
+
+a:hover {
+  color: var(--color5);
+}
+
