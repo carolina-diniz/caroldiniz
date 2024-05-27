@@ -1,0 +1,22 @@
+.curso {
+  margin: 24px 84px;
+}
+
+.curso h2 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.curso span {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: var(--color2);
+}
+
+.curso p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  color: var(--color2);
+}
