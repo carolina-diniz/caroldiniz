@@ -1,23 +1,45 @@
-.curso {
-  margin: 24px 84px;
+@media screen {
+  .curso {
+    margin: 24px 84px;
+  }
+
+  .curso h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: var(--color1);
+  }
+
+  .curso span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: var(--color2);
+  }
+
+  .curso p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: var(--color2);
+  }
 }
 
-.curso h2 {
-  font-size: 18px;
-  margin-bottom: 4px;
-  color: var(--color1);
-}
+@media screen and (max-width: 768px) {
+  .curso {
+    margin: 34px 30px;
+  }
 
-.curso span {
-  display: block;
-  font-size: 15px;
-  margin-bottom: 5px;
-  color: var(--color2);
-}
+  .curso span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: var(--color2);
+  }
 
-.curso p {
-  font-size: 16px;
-  letter-spacing: 1px;
-  line-height: 16px;
-  color: var(--color2);
+  .curso p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: var(--color2);
+  }
 }
