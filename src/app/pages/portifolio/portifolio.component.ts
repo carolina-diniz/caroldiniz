@@ -18,14 +18,14 @@ export class PortifolioComponent {
       title: 'Gardião Pet',
       imgSrc: '../../../assets/image/portifolio/Screenshot_37.png',
       description:
-        'Um site criado como trabalho final de um curso de programação em 2020.',
+        'Um site para uma atividade prática da faculdade, mas pretendo dar continuidade no futuro.',
     },
     {
       src: '#',
       title: 'Bahamas Bot',
       imgSrc: '../../../assets/image/portifolio/Screenshot_38.png',
       description:
-        'Um site criado como trabalho final de um curso de programação em 2020.',
+        'Bot interativo criado para uma comunidade de GTA RP no discord. Em breve disponibilizarei o código.',
     },
   ];
 }
