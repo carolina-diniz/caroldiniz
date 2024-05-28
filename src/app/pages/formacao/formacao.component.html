@@ -2,23 +2,32 @@
   <div class="descricao_formacao">
     <h1>Formação</h1>
     <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.
+      Atualmente, curso Ciência da Computação no Centro Universitário União das
+      Américas (Uniamérica Descomplica), com início em janeiro de 2023. A
+      previsão de conclusão do curso é para janeiro de 2027.
+    </p>
+    <h2>Projeto Acadêmico em Destaque: Guardião Pet</h2>
+    <p>
+      Durante a graduação, tive a oportunidade de participar ativamente do
+      desenvolvimento do "Guardião Pet", um aplicativo com a missão de conectar
+      pessoas que desejam adotar animais a quem precisa doar. O objetivo do
+      projeto é facilitar esse processo tão importante e contribuir para que
+      cada vez mais animais encontrem um lar cheio de amor.
+    </p>
+    <p>
+      Apesar de o projeto estar temporariamente pausado devido à falta de
+      recursos para manter um servidor dedicado, tenho o sonho de, em breve,
+      viabilizar sua implementação e disponibilizar o "Guardião Pet" ao público.
     </p>
   </div>
   <div class="cursos">
-    <h1>Cursos</h1>
+    <h1>Cursos / Certificados</h1>
     <div *ngFor="let curso of cursos">
       <app-cursos
         titulo="{{ curso.titulo }}"
+        instituicao="{{ curso.instituicao }}"
         conclusao="{{ curso.conclusao }}"
+        horas="{{ curso.horas }}"
         descricao="{{ curso.descricao }}"
         src="{{ curso.src }}"
       ></app-cursos>

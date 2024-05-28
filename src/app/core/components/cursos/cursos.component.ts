@@ -7,7 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class CursosComponent {
   @Input() titulo!: string;
+  @Input() instituicao!:string;
   @Input() conclusao!: string;
+  @Input() horas!: string;
   @Input() descricao!: string;
   @Input() src!: string;
 }

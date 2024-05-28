@@ -18,6 +18,10 @@
   a:hover {
     color: var(--color5);
   }
+
+  strong {
+    font-weight: 600;
+  }
 }
 
 @media screen and (max-width: 768px) {
