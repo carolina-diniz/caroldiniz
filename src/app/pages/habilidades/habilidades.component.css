@@ -1,49 +1,113 @@
-.container {
-  max-width: 874px;
-  min-height: 419px;
+@media screen {
+  .container {
+    max-width: 874px;
+    min-height: 419px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .skill img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 200ms;
+  }
+
+  .skill img:hover {
+    width: 70px;
+    height: 70px;
+    margin-top: 0px;
+  }
+
+  .selected img {
+    width: 70px;
+    height: 70px;
+    margin-top: 0px;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    color: var(--color2);
+    margin-bottom: 40px;
+  }
+
+  p {
+    max-width: 731px;
+    margin: 0 auto;
+    letter-spacing: var(--letter-spacing);
+    line-height: var(--line-height-container);
+    color: var(--color2);
+  }
 }
 
-.skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 60%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
+@media screen and (max-width: 768px) {
+  .container {
+    min-width: var(--portifolio-container-min-width-mobile);
+    max-width: var(--portifolio-container-max-width-mobile);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 
-.skill img {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: all 200ms;
-}
+  .container h1 {
+    margin: 0;
+    margin-bottom: var( --h1-margin-bottom-mobile);
+    text-align: var(--h1-text-align-mobile);
+  }
 
-.skill img:hover {
-  width: 70px;
-  height: 70px;
-  margin-top: 0px;
-}
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
 
-.selected img {
-  width: 70px;
-  height: 70px;
-  margin-top: 0px;
-}
+  .skill img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 200ms;
+  }
 
-h2 {
-  font-size: 32px;
-  text-align: center;
-  color: var(--color2);
-  margin-bottom: 40px;
-}
+  .skill img:hover {
+    width: 70px;
+    height: 70px;
+    margin-top: 0px;
+  }
 
-p {
-  max-width: 731px;
-  margin: 0 auto;
-  letter-spacing: var(--letter-spacing);
-  line-height: var(--line-height-container);
-  color: var(--color2);
+  .selected img {
+    width: 70px;
+    height: 70px;
+    margin-top: 0px;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    color: var(--color2);
+    margin-bottom: 40px;
+  }
+
+  p {
+    max-width: 731px;
+    margin: var(--default-margin-edge-mobile);
+    letter-spacing: var(--letter-spacing);
+    line-height: var(--line-height-container);
+    color: var(--color2);
+  }
 }

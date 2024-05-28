@@ -53,8 +53,24 @@ table {
   --color4: #3e3a54;
   --color5: #ffdb9d;
   --color6: rgba(255, 219, 157, 0.226);
+
   --letter-spacing-container: 3px;
   --line-height-container: 23px;
+
+  --h1-font-size: 32px;
+  --h1-text-align-mobile: center;
+  --h1-margin-bottom-mobile: 40px;
+
+  --header-height: 73px;
+  --header-height-mobile: 200px;
+  --header-font-size-mobile: 25px;
+
+  --portifolio-container-min-width-mobile: 300px;
+  --portifolio-container-max-width-mobile: 700px;
+
+  --default-margin-edge: 0 64px;
+  --default-margin-edge-mobile: 0 30px;
+
 }
 
 html {
@@ -64,7 +80,7 @@ html {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: var(--h1-font-size);
   color: var(--color5);
 }
 

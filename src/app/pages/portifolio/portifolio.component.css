@@ -1,11 +1,35 @@
-.container {
-  background-color: var(--color3);
-  max-width: 1100px;
+@media screen {
+  .container {
+    background-color: var(--color3);
+    max-width: 1100px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    min-width: var(--portifolio-container-min-width-mobile);
+    max-width: var(--portifolio-container-max-width-mobile);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  .container h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: var(--h1-text-align-mobile);
+  }
+
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
 }
