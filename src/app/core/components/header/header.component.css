@@ -38,7 +38,27 @@
     background-color: var(--color6);
   }
 
+  .moon-container {
+    margin-right: 15px;
+  }
+
+
+  .moon {
+    --moonsize: 25px;
+    position:relative;
+    width: var(--moonsize);
+    height: var(--moonsize);
+    top: -5px;
+    left: +5px;
+    border-radius: 50%;
+    box-shadow: -5px 5px 0 0  var(--color1);
+  }
+
   .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-style: italic;
     font-weight: 100;
     font-size: 18px;
