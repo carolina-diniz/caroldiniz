@@ -7,14 +7,23 @@
   .descricao_formacao p {
     max-width: 731px;
     margin: 0 auto;
-    margin-bottom: 64px;
+    margin-bottom: 24px;
     color: var(--color2);
     letter-spacing: var(--letter-spacing);
     line-height: var(--line-height-container);
   }
 
+  .container h1 {
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    margin: 30px 88px;
+    font-size: 24px;
+  }
+
   .cursos h1 {
-    margin-bottom: 0px;
+    margin: 50px 88px;
   }
 }
 @media screen and (max-width: 768px) {
