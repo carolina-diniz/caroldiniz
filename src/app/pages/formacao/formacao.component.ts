@@ -7,6 +7,38 @@ import { Component } from '@angular/core';
 })
 export class FormacaoComponent {
   cursos = [
+        {
+      titulo: 'Mobile Developer',
+      instituicao: 'Descomplica Faculdade Digital',
+      conclusao: 'Março/2024',
+      horas: '240',
+      descricao: 'A escrever...',
+      src: 'https://certificados.descomplica.com.br/graduacao/1b258eefda0fe408a64725d89d37ec181c10c3661e20abe0e4a0d338a052e44a'
+    },
+    {
+      titulo: 'Smart Data Structures',
+      instituicao: 'Descomplica Faculdade Digital',
+      conclusao: 'Março/2024',
+      horas: '240',
+      descricao: 'A escrever...',
+      src: 'https://certificados.descomplica.com.br/graduacao/4286fd1498f02d01791cb03bcbe4b14c6243a5d9280ee2662c839c7d9fb0d630'
+    },
+    {
+      titulo: 'DB Developer',
+      instituicao: 'Descomplica Faculdade Digital',
+      conclusao: 'Novembro/2023',
+      horas: '160',
+      descricao: 'A escrever...',
+      src: 'https://certificados.descomplica.com.br/graduacao/1fc555bb9f8fd7e3875cb6885bb3a1ac21015e3121551b6805ea5d0c357e5c6f'
+    },
+    {
+      titulo: 'Programming Basics',
+      instituicao: 'Descomplica Faculdade Digital',
+      conclusao: 'Outubro/2023',
+      horas: '160',
+      descricao: 'A escrever...',
+      src: 'https://certificados.descomplica.com.br/graduacao/98f3464e7d43043f9cc54e26f51082c36cac4e41a088c8a8db00d93be7a9b23b'
+    },
     {
       titulo: 'Imersão Inteligência Artificial da Alura e do Google',
       instituicao: 'Alura',
@@ -63,30 +95,5 @@ export class FormacaoComponent {
       descricao: 'A escrever...',
       src: 'https://www.dio.me/certificate/PYGCZWUF'
     },
-    {
-      titulo: 'Smart Data Structures',
-      instituicao: 'Descomplica Faculdade Digital',
-      conclusao: 'Março/2024',
-      horas: '240',
-      descricao: 'A escrever...',
-      src: 'https://certificados.descomplica.com.br/graduacao/9196db37d0cb724f6287e4af1018ea68ca03c5c12ba0a655cbddcc68320bbfec'
-    },
-    {
-      titulo: 'DB Developer',
-      instituicao: 'Descomplica Faculdade Digital',
-      conclusao: 'Novembro/2023',
-      horas: '160',
-      descricao: 'A escrever...',
-      src: 'https://certificados.descomplica.com.br/graduacao/38e6f71177a0b122dc03d77bcb048e5190f467c20069ce29e38d3715a94c5a09'
-    },
-    {
-      titulo: 'Programming Basics',
-      instituicao: 'Descomplica Faculdade Digital',
-      conclusao: 'Outubro/2023',
-      horas: '160',
-      descricao: 'A escrever...',
-      src: 'https://certificados.descomplica.com.br/graduacao/239dec6242f09f0e3ed8355a4c0a8141467aef495e93282ada7df1f28812c6ab'
-    },
-
   ];
 }
